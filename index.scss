@@ -1,0 +1,114 @@
+body{
+  background-color: #F3F3F3;
+  font-family: 'Work Sans', sans-serif;  
+
+}
+nav{
+  display: flex;
+  align-items: center;
+  .circulo{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 100px;
+    background-color: pink;
+  }
+  h1{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing:-.5px;
+  }
+}
+main{
+
+  .contenedor{
+    display: flex;
+    justify-content: center;
+    figure{
+      width: 35%;
+      img{
+        width: 100%;
+        border-radius: 300px;
+      }
+    }
+    .contenedor_informacion{
+      width: 40%;
+      .texto{
+        h2{
+          font-size: 100px;
+          font-weight: 600;
+          margin-top: 40px;
+          margin-bottom: 10px;
+          margin-left: -5px;
+        }
+        h3{
+          font-size: 22px;
+          font-weight: 600;
+          margin-bottom: -10px;
+        }
+        p{
+          letter-spacing: 1px;
+          font-weight: 400;
+          line-height: 24px;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+.links{
+  display: flex;
+  .circulo-links{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor:pointer;
+    transition: background .5s;
+  }
+  
+  .circulo-links:first-child{
+    background-color: #9F7FB1;
+    margin-left: 0;
+  }
+  .circulo-links:first-child:hover{
+    background-color: #9f7fb16b;
+  }
+  .circulo-links:nth-child(2){
+    background-color: #E791BE;
+  }
+  .circulo-links:nth-child(2):hover{
+    background-color: #e791bd88;
+  }
+  .circulo-links:nth-child(3){
+    background-color: #FFC9D9;
+  }
+  .circulo-links:nth-child(3):hover{
+    background-color: #ffc9d992;
+  }
+  
+  a{
+    text-align: center;
+    margin: auto 5px;
+  }
+}
+
+footer{
+ 
+  .social{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    i{
+      font-size: 30px;
+      color: white;
+      margin: auto 10px;
+    }
+  }
+}
